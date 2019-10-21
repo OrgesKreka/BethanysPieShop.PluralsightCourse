@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{012DCEE0-AD71-4E65-884C-050F758537F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MobileApps", "MobileApps", "{C4EC39E1-0FEE-4192-BE1B-F2575231E9C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{38D16A72-13B7-40D1-AE03-F76124C05EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShop.API", "BethanysPieShop.API\BethanysPieShop.API.csproj", "{896F4E33-1A14-498B-980D-62517664B5C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{471EDB79-111E-4F73-9B44-6B87F3B95040}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{896F4E33-1A14-498B-980D-62517664B5C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896F4E33-1A14-498B-980D-62517664B5C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896F4E33-1A14-498B-980D-62517664B5C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896F4E33-1A14-498B-980D-62517664B5C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{896F4E33-1A14-498B-980D-62517664B5C1} = {012DCEE0-AD71-4E65-884C-050F758537F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3391CE6F-5C3A-40B1-80DC-7FD5CA93D53D}
